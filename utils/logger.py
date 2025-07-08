@@ -1,5 +1,3 @@
-# ipos_sync_project/utils/logger.py
-
 import logging
 import os
 from logging.handlers import RotatingFileHandler
