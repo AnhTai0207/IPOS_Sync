@@ -1,1 +1,1 @@
-# IPOS_Sync
+Daily Sync IPOS Sale data
