@@ -92,7 +92,7 @@ def insert_store_address_if_any(cursor_holder, record):
             N'{store_address["address_details"]["country_info"]["short_name"]}'
         )
         """
-        safe_execute(q, cursor_holder)
+        cursor_holder['cursor'].execute(q)
     except Exception as e:
         logger.warning(f"Store address insert skipped (may already exist): {e}")
 
